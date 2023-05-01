@@ -6,6 +6,10 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
+nawhes:
+  name: nawhes
+  url: https://github.com/nawhes/
+
 cotes:
   name: Cotes Chung
   twitter: cotes2020
