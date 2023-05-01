@@ -18,7 +18,7 @@ tabs:
 
 # the text displayed in the search bar & search results
 search:
-  hint: Search..
+  hint: Search
   cancel: 취소
   no_results: 검색 결과가 없습니다.
 
@@ -55,11 +55,11 @@ post:
   written_by: By
   posted: Posted
   updated: Updated
-  words: 단어
+  words: words
   pageview_measure: 조회
   read_time:
-    unit: 분
-    prompt: 읽는 시간
+    unit: min
+    prompt: read
   relate_posts: 관련된 글
   share: 공유하기
   button:
@@ -71,7 +71,7 @@ post:
       title: 링크 복사하기
       succeed: 링크가 복사되었습니다!
   # pinned prompt of posts list on homepage
-  pin_prompt: 핀
+  pin_prompt: Pinned
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
