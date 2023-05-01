@@ -10,39 +10,39 @@ baseurl: ""
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko-KR
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: nawhes # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Timeline # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  nawhes's log
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://nawhes.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: nawhes # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+  #  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: 박세환
+  email: nawhes@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/nawhes # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'https://avatars.githubusercontent.com/u/28880408?s=400&u=adc5e2ee069cf88fee42943132cc1f8895ac6613&v=4'
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -96,11 +96,11 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
+    repo: 'nawhes/nawhes.github.io' # <gh-username>/<repo>
+    repo_id: 'R_kgDOJdhUUA'
+    category: 'Comments'
+    category_id: 'DIC_kwDOJdhUUM4CWLtO'
+    mapping: 'pathname' # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
